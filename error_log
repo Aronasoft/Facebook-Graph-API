@@ -1,0 +1,7 @@
+ [19-Jun-2019 15:02:49 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthenticationException: Error validating access token: Session has expired on Saturday, 08-Jun-19 04:00:00 PDT. The current time is Wednesday, 19-Jun-19 08:02:49 PDT. in /home/clo7dyrou8c5/public_html/fb_likedpagesApi/src/Facebook/Exceptions/FacebookResponseException.php:89
+Stack trace:
+#0 /home/clo7dyrou8c5/public_html/fb_likedpagesApi/src/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/clo7dyrou8c5/public_html/fb_likedpagesApi/src/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/clo7dyrou8c5/public_html/fb_likedpagesApi/src/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/clo7dyrou8c5/public_html/fb_likedpagesApi/src/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/clo7dyrou8c5/public_html/fb_likedpagesApi/src/Fac in /home/clo7dyrou8c5/public_html/fb_likedpagesApi/src/Facebook/Exceptions/FacebookResponseException.php on line 89
