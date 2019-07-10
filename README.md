@@ -7,6 +7,7 @@ Get the list of all liked page or fanned pages in JSON format and store into dat
 > 2 Install facebook module by using composer. All you need this to get SDK "facebook/graph-sdk"
 
 > 3 Create index.php file and add following code in it. 
+
 <?php
 require_once('config.php'); // database configrations. 
 require_once __DIR__ . '/vendor/autoload.php'; // change path as needed
